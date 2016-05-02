@@ -8,7 +8,10 @@
 void ParseAnObject()
 {
     char json[] = "{\"Name\":\"Blanchon\",\"Skills\":[\"C\",\"C++\",\"C#\"],\"Age\":32,\"Online\":true}";
-
+//    char json[] = "{\"Exposure\":\"1/10th\",
+                    //\"Interval Time\":\"60 seconds\",
+                    //\"Keyframes\":\"60\",
+                    //\"Camera Type":\"Canon}";
     JsonParser<32> parser;
 
     Serial.print("Parse ");
